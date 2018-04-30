@@ -1,0 +1,8 @@
+<h1> 글을 수정하는 페이지입니당 </h1>
+<p> 내용을 고친 후 완료를 눌러주세욥 </p>
+
+<form action="/home/update/<%=@post.id%>" method="post">
+  제목: <input type="text" name="title" value="<%=@post.title%>"><br>
+  내용: <input type="text" name="content" value="<%=@post.content%>"><br>
+  <input type="submit" value="완료">
+</form> 
